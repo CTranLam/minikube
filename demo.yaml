@@ -1,0 +1,30 @@
+# dictionary
+labels:
+  app: app-simple
+  env: dev
+
+# array
+person:
+  name: John
+  age: 30
+  albums:
+    - Thriller
+    - Back in Black
+    - The Dark Side of the Moon
+
+# literal style |
+
+name: John Doe
+age: 30
+description: |
+  John Doe is a software engineer with over 10 years of experience in the tech industry.
+  He specializes in backend development and has a passion for open-source projects.
+
+# => John Doe is a software engineer with over 10 years of experience in the tech industry.\nHe specializes in backend development and has a passion for open-source projects.\n
+
+# folded style >
+summary: >
+  John Doe is a software engineer with over 10 years of experience in the tech industry.
+  He specializes in backend development and has a passion for open-source projects.
+
+# => John Doe is a software engineer with over 10 years of experience in the tech industry. He specializes in backend development and has a passion for open-source projects.\n
